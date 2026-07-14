@@ -30,10 +30,11 @@ pipeline that:
 
   ## 🔄 Pipeline
 
-![Pipeline FlowChart](<img width="715" height="622" alt="Screenshot 2026-07-14 160214" src="https://github.com/user-attachments/assets/a7d91421-9280-429f-87dc-ce2b2a831ce5" />)
+![Pipeline FlowChart] 
+<img width="715" height="622" alt="Screenshot 2026-07-14 160214" src="https://github.com/user-attachments/assets/a7d91421-9280-429f-87dc-ce2b2a831ce5" />
 
-![Pipeline Graph](<img width="810" height="315" alt="model_comparison_chart" src="https://github.com/user-attachments/assets/0c19b56f-ef85-4f56-b81f-cb2f84ba6b64" />)
-
+![Pipeline Graph]
+<img width="810" height="315" alt="model_comparison_chart" src="https://github.com/user-attachments/assets/0c19b56f-ef85-4f56-b81f-cb2f84ba6b64" />
 
 ## 🧠 Key Results
 
