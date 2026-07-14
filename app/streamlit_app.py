@@ -30,6 +30,19 @@ st.title("📊 Customer Churn Prediction")
 st.write("Enter customer details to predict the likelihood of churn.")
 
 # ---------------------------------------------------------
+# Model comparison chart (sidebar or expander)
+# ---------------------------------------------------------
+with st.expander("📈 View model comparison"):
+    try:
+        comparison_df = pd.read_csv("models/model_comparison.csv")
+        st.dataframe(comparison_df, use_container_width=True)
+
+        chart_df = comparison_df.set_index("Model")[["ROC-AUC", "Accuracy"]]
+        st.bar_chart(chart_df)
+    except FileNotFoundError:
+        st.info("Model comparison data not found. Run train_model.py first.")
+
+# ---------------------------------------------------------
 # Input form
 # ---------------------------------------------------------
 def user_input_form():
